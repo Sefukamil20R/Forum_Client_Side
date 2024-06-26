@@ -229,6 +229,11 @@ In Tailwind CSS, the bg-blue-500 class sets the background color to a specific s
 The number 500 represents a shade in the color scale, where 100 is very light and 900 is very dark. 
 in context of Tailwind when using padding , margin , height , width , space or anysize related 
 things are divided into 4 like p-8 means 8/4 = 2 rem means padding 2rem in each side like this for all.
-
-
-
+Steps to deploy react in Netlify :
+1.first push your folder into github when that repo click the erc and other folder shouid appear
+it means ur main reactfolder is your repo
+2.the IN your netlify add new site >> import from existing repository >> then authenicate the github 
+then Fill the info like sitename u wanted and to protect the site from failure 
+IN Build_Command = go to netlifydocs >> on left part click configurebuilds >> Troubleshoutingtips
+then find Ci"npm run build" part then copy and paste in Build_Command then fill other info and deploy
+enviromentaal variable is needed in backend so dotworry abt it skip that part.
